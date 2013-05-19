@@ -6,21 +6,21 @@ TowerStat* createEmptyTowerStat(){
 	TowerStat* towerstat = (TowerStat*) malloc(sizeof(TowerStat));
 	if(towerstat == NULL) return NULL;
 	towerstat->powerR=100;
-	towerstat->rateR=10;
-	towerstat->rangeR=50;
-	towerstat->costR=60;
-	towerstat->powerL=20;
-	towerstat->rateL=100;
-	towerstat->rangeL=1150;
-	towerstat->costL=40;
-	towerstat->powerM=20;
-	towerstat->rateM=70;
-	towerstat->rangeM=1000;
-	towerstat->costM=30;
+	towerstat->rateR=100;
+	towerstat->rangeR=180;
+	towerstat->costR=190;
+	towerstat->powerL=60;
+	towerstat->rateL=40;
+	towerstat->rangeL=120;
+	towerstat->costL=150;
+	towerstat->powerM=40;
+	towerstat->rateM=50;
+	towerstat->rangeM=150;
+	towerstat->costM=80;
 	towerstat->powerH=40;
-	towerstat->rateH=80;
-	towerstat->rangeH=100;
-	towerstat->costH=90;
+	towerstat->rateH=100;
+	towerstat->rangeH=280;
+	towerstat->costH=250;
 	
 	return towerstat;
 }

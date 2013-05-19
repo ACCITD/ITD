@@ -9,7 +9,7 @@
 #define MONSTERS_PER_WAVE 10
 
 /* Unité de temps d'un pas de jeu = 10ms */
-static const int TIMESTEP_MILLISECONDS = 1;
+static const int TIMESTEP_MILLISECONDS = 10;
 
 /*Temps d'attente en nombre de tours entre deux vagues successives */
 static const int NB_TURNS_BETWEEN_WAVES = 100;//=10seconde

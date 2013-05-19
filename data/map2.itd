@@ -1,5 +1,5 @@
 @ITD 2
-carte map2.ppm
+carte moon.ppm
 chemin 255 255 255
 noeud 0 0 0
 construct 255 200 80
@@ -11,19 +11,19 @@ out 200 0 0
 300 103
 200 103
 200 206
-powerR 20
-rateR 3
-rangeR 9
-costR 10
-powerL 5
-rateL 10
-rangeL 3
-costL 6
-powerM 3
-rateM 10
-rangeM 3
-costM 4
-powerH 3
-rateH 8
-rangeH 10
-costH 8
+powerR 140
+rateR 80
+rangeR 200
+costR 200
+powerL 100
+rateL 20
+rangeL 150
+costL 150
+powerM 80
+rateM 40
+rangeM 180
+costM 100
+powerH 80
+rateH 80
+rangeH 280
+costH 250

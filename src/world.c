@@ -14,7 +14,7 @@ World initWorld(const char* pathToItdFile){
 	newWorld.isBetweenWaves = true;
 	newWorld.nbTurnsWaiting = 0;
 	newWorld.nbMonstersAlive = 0;//Pas de monstres au départ
-	newWorld.money = 1000;
+	newWorld.money = 500;
 	newWorld.paused = false;
 	newWorld.gameLoosed = false;
 	newWorld.gameWinned = false;
